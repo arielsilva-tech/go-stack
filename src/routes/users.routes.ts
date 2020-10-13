@@ -1,6 +1,6 @@
-import {Router, request} from 'express';
+import { Router, request } from 'express';
 import users from "../model/user";
-import {getCustomRepository} from 'typeorm';
+import { getCustomRepository } from 'typeorm';
 import CreateUserService from '../services/CreateUserService';
 import UpdateUserAvatarService from '../services/UpdateUserAvatarService';
 
@@ -10,9 +10,9 @@ import multer from 'multer';
 const usersRouter = Router();
 const upload = multer(uploadConfig);
 
-usersRouter.post('/', async(request, response) =>{
+usersRouter.post('/', async (request, response) => {
 
-    const {name, email, password} =  request.body;
+    const { name, email, password } = request.body;
 
     const createUser = new CreateUserService();
     const user = await createUser.execute({
@@ -22,20 +22,20 @@ usersRouter.post('/', async(request, response) =>{
     });
 
     delete user.password;
-    return response.json({user});
+    return response.json({ user });
 });
 
-usersRouter.patch('/avatar', ensureAuthenticated,upload.single('avatar'),async(request, response) =>{
-        
-        const updateUserAvatar = new UpdateUserAvatarService();
+usersRouter.patch('/avatar', ensureAuthenticated, upload.single('avatar'), async (request, response) => {
 
-        const user = await updateUserAvatar.execute({
-            user_id: request.user.id,
-            avatarFileName: request.file.filename,
-        });
+    const updateUserAvatar = new UpdateUserAvatarService();
 
-        delete user.password;
+    const user = await updateUserAvatar.execute({
+        user_id: request.user.id,
+        avatarFileName: request.file.filename,
+    });
 
-        return response.json(user);
+    delete user.password;
+
+    return response.json(user);
 });
 export default usersRouter;
