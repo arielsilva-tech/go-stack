@@ -1,4 +1,4 @@
-import AppError from '@shared/erros/AppError';
+// import AppError from '@shared/erros/AppError';
 // import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepository';
 // import CreateUserService from '@modules/users/';
 import FakeAppointmentsRepository from '@modules/appointments/repositories/fakes/FakeAppointmentsRepository';
