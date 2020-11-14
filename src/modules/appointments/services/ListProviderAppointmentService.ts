@@ -1,11 +1,7 @@
 import { inject, injectable } from 'tsyringe';
-import AppError from '@shared/erros/AppError';
-import User from '@modules/users/infra/typeorm/entities/user';
-import IUsersRepository from '@modules/users/repositories/IUsersRepository';
-import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 
-import { getDaysInMonth, getDate, isAfter } from 'date-fns';
-import { Index } from 'typeorm';
+import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
+import ICacheProvider from '@shared/container/providers/CacheProvider/models/ICacheProvider';
 import Appointment from '../infra/typeorm/entities/Appointment';
 
 /* eslint-disable camelcase */
@@ -21,6 +17,8 @@ class ListProviderAppointmentService {
   constructor(
     @inject('AppointmentsRepository')
     private appointmentsRepository: IAppointmentsRepository,
+    @inject('CacheProvider')
+    private cacheProvider: ICacheProvider,
   ) {}
 
   public async execute({

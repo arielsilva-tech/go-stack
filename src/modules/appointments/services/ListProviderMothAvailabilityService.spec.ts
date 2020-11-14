@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/interface-name-prefix
 // import AppError from '@shared/erros/AppError';
 // import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepository';
 // import CreateUserService from '@modules/users/';

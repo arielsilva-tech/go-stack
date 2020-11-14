@@ -36,12 +36,13 @@
         "argsIgnorePattern": "_"
       }
     ],
-    "@typescript-eslint/interface-name-prefix": [
-      "warn",
-      {
-        "prefixWithI": "always"
-      }
-    ],
+//    "@typescript-eslint/interface-name-prefix": [
+//      "warn",
+//      {
+//        "prefixWithI": "always"
+//      }
+//    ],
+
     "import/extensions": [
       "warn",
       "ignorePackages",
