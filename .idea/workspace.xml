@@ -5,36 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409a3129-eba4-441c-88e6-6c062264e4ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config/cache.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RedisCacheProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/models/ICacheProvider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderAppointmentService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderAppointmentService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderMothAvailabilityService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderMothAvailabilityService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProvidersService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProvidersService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ShowProfileService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ShowProfileService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/appointments.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/appointments.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/repositories/IAppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/repositories/IAppointmentsRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/AppointmentController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/AppointmentController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMothAvailabilityService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMothAvailabilityService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RedisCacheProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RedisCacheProvider.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605361699122</updated>
-      <workItem from="1605361700348" duration="18616000" />
+      <workItem from="1605361700348" duration="20255000" />
     </task>
     <servers />
   </component>
@@ -112,9 +87,9 @@
       <screen x="0" y="27" width="1920" height="999" />
     </state>
     <state x="698" y="377" width="951" height="504" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.27.1920.999@0.27.1920.999" timestamp="1605362934184" />
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1605389686653">
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1605391765237">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.999@0.27.1920.999" timestamp="1605389686653" />
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.999@0.27.1920.999" timestamp="1605391765237" />
   </component>
 </project>

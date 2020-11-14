@@ -10,7 +10,7 @@ export default class RedisCacheProvider implements ICacheProvider {
   }
 
   public async invalidatePrefix(key: string): Promise<void> {
-    const keys = await this.client.keys(`${prefix}:*`);
+    const keys = await this.client.keys(`${key}:*`);
 
     const pipeline = this.client.pipeline();
 
@@ -22,7 +22,7 @@ export default class RedisCacheProvider implements ICacheProvider {
   }
 
   public async invalidate(key: string): Promise<void> {
-    return Promise.resolve(undefined);
+    await this.client.del(key);
   }
 
   public async recover<T>(key: string): Promise<T | null> {
