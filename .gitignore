@@ -1,7 +1,8 @@
 node_modules
 build/
 temp/
+tmp/
 coverage
 ormconfig.json
 .env
-
+env.pro
