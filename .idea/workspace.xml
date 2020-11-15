@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="409a3129-eba4-441c-88e6-6c062264e4ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderDayAvailabilityController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderDayAvailabilityController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderMonthAvailabilityController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderMonthAvailabilityController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../aulas/06-gobaber-web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605361699122</updated>
-      <workItem from="1605361700348" duration="29463000" />
+      <workItem from="1605361700348" duration="30239000" />
+      <workItem from="1605440467960" duration="2001000" />
     </task>
     <servers />
   </component>
@@ -76,10 +72,10 @@
       <screen x="0" y="27" width="1920" height="999" />
     </state>
     <state x="768" y="245" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.999@0.27.1920.999" timestamp="1605365463410" />
-    <state x="743" y="288" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605362030592">
+    <state x="743" y="288" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605442652871">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
-    <state x="743" y="288" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.999@0.27.1920.999" timestamp="1605362030592" />
+    <state x="743" y="288" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.999@0.27.1920.999" timestamp="1605442652871" />
     <state x="599" y="179" width="1022" height="737" key="SettingsEditor" timestamp="1605363126378">
       <screen x="0" y="27" width="1920" height="999" />
     </state>
