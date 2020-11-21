@@ -3,6 +3,7 @@ import AppError from '@shared/erros/AppError';
 import User from '@modules/users/infra/typeorm/entities/user';
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';
 import ICacheProvider from '@shared/container/providers/CacheProvider/models/ICacheProvider';
+import { classToClass } from 'class-transformer';
 
 /* eslint-disable camelcase */
 interface IRequest {
@@ -22,6 +23,8 @@ class ListProvidersService {
     let users = await this.cacheProvider.recover<User[]>(
       `providers-list:${user_id}`,
     );
+    // let users;
+
     if (!users) {
       users = await this.userRepository.findAllProviders({
         exceptUserId: user_id,
@@ -31,7 +34,10 @@ class ListProvidersService {
         throw new AppError('User not found');
       }
 
-      await this.cacheProvider.save(`providers-list:${user_id}`, users);
+      await this.cacheProvider.save(
+        `providers-list:${user_id}`,
+        classToClass(users),
+      );
     }
     return users;
   }
